@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+
+    width: 100% ;
+    margin: 0 0 0 0 ;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.442);
+padding-left:  19%;
+border-right:1px solid rgba(255, 255, 255, 0.442) ;
+}
+.nav_p{
+   
+    color:white;
+    font-size: 13px;
+    font-weight: 500;
+    margin :0;
+}
+#home1{
+    background-image: url(bezel/bg-image-28.jpg);
+    background-position: center center;
+    background-size: cover;
+   
+   
+   
+   
+   
+   
+   
+   
+}
+#home2{
+    background-image: url(bezel/bg-image-29.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.cover{
+    background-color: rgba(0, 0, 0, 0.386);
+    min-height: 100vh;
+}
+.back h1::after{
+    content: "c";
+    position: absolute;
+    font-size: 100px;
+    color: rgba(34, 34, 34, 0.155);
+    left:48%;top:-60px;right: 53%;
+
+}
+.team{
+    display: flex;
+    justify-content: space-around;
+}
+.team img{
+    width: 18%;
+}
+tr p{color: white;}
+.back2::after{content: 'w';
+    position: absolute;
+    font-size: 90px;
+    color: rgba(240, 248, 255, 0.342);
+    left:-9px;
+    top: -59px;
+}
+.pattern{
+    justify-content: space-between ;
+}
+.but2{ 
+   
+    width: 100px;
+    height: 100px;
+    background-position: center center;
+    background-size: cover;
+   
+background-image: url(bezel/testimonial-1.jpg);
+}
+.but1{ 
+   
+    width: 100px;
+    height: 100px;
+    background-position: center center;
+    background-size: cover;
+   
+background-image: url(bezel/testimonial-1.jpg);
+}
+.back3::after{
+    content: 'G';
+    position: absolute;
+    font-size: 80px;
+    color: rgba(2, 6, 10, 0.163);
+    left: 42px;
+    top: 9px;
+
+}
+
